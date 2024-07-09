@@ -175,7 +175,9 @@ const Menu = () => {
           ) : (
             <p className="text-xl p-5 lowercase">No any item</p>
           )}
-          <span>Total (INR) :{totalAmount} </span>
+          {addedItem.length > 0 ? (
+            <span>Total (INR) :{totalAmount} </span>
+          ) : null}
           <div className="flex gap-4 justify-end mt-4">
             <Link to="/Checkout">
               <button
