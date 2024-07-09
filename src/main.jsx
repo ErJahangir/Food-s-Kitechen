@@ -28,7 +28,7 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <div className="bg-blue-700 flex items-center py-2 gap-3 pl-3">
+    <div className="bg-blue-700 flex items-center  gap-3 pl-3 py-5">
       <BiRestaurant className="text-3xl text-white" />
       <h2 className="text-white font-bold">Food's Restaurant</h2>
     </div>
