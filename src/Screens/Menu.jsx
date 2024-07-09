@@ -19,7 +19,6 @@ const Menu = () => {
     { id: 2, name: "Fries", img: Fries, Price: 100 },
     { id: 3, img: Coke, name: "Coke", Price: 50 },
     { id: 4, img: Pepsi, name: "Pepsi", Price: 50 },
-    { id: 5, img: Coke, name: "Pepsi", Price: 50 },
   ];
 
   const Modalstyle = {
