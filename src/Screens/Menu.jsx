@@ -146,7 +146,7 @@ const Menu = () => {
         style={Modalstyle}
       >
         <div className="w-[500px]  p-6  ">
-          <h2>Order Summary</h2>
+          <h2 className="text-xl font-bold">Order Summary</h2>
           {addedItem.length > 0 ? (
             addedItem.map((item) => (
               <div key={item.id} className="flex justify-between my-2">
@@ -176,7 +176,7 @@ const Menu = () => {
             <p className="text-xl p-5 lowercase">No any item</p>
           )}
           {addedItem.length > 0 ? (
-            <span>Total (INR) :{totalAmount} </span>
+            <span>Total (INR) : {totalAmount} </span>
           ) : null}
           <div className="flex gap-4 justify-end mt-4">
             <Link to="/Checkout">
